@@ -68,7 +68,7 @@ Otros casos posibles: Es el de los dominios no actualizados como C1661855. Se re
 Luego, se procede igual a los casos anteriormente mencionados. Se suman los números desde la “derecha” a la “izquierda” alternados 5+8+6+1=20=2+0=2  y 5+1+6=12 = 1+2=3  Entonces el Digito Verificador es 23. Igual que en los casos anteriores, si el dígito obtenido es mayor o igual a 10, se suman sus dígitos (14 pasará a ser 5).
 
 
-
+***
 //// endif
 
                 / ,-\      _ ___
