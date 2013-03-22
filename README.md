@@ -71,8 +71,11 @@ Luego, se procede igual a los casos anteriormente mencionados. Se suman los núm
 Algunos dominios para validar pueden ser:
 
 SPN725 DV 69
+
 DFN811 DV 41
+
 ETQ290 DV 31
+
 GQX429 DV 64
 
 
