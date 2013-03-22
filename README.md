@@ -4,7 +4,7 @@ Training_F1
 
 Entrenamiento Phyton - Fundamentos
 
-VERIFICACION DE CUIT/CUIL (genérico)
+**VERIFICACION DE CUIT/CUIL** (genérico)
 
 El CUIL/CUIT consta de 11 números. Los 10 primeros (2 + 8) constituyen el código de identificación y el último, el dígito de verificación. Para obtener esta verificación se procede de la siguiente forma:
 
