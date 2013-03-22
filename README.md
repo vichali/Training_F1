@@ -15,6 +15,19 @@ A este "valor 1", se le saca el resto de la división entera a 11. Se obtiene de
 Si "valor 3"=11, el código verificador es cero. Si "valor 3"=10, el código verificador es 9. En otro caso el dígito verificador será el dígito obtenido
 
 
+
+**DIGITO VERIFICADOR DE PATENTES DE AUTOMORES (CABA)**
+ 
+Los dominios o patentes de los automotores están formados por 3 letras y 3 números.
+Cada letra tiene una representación numérica. Para determinar la validez del dominio y asegurar su correcto ingreso, se utiliza un algoritmo digito verificador.
+
+De este modo, por ejemplo, el dominio de un automotor podría ser ALM432
+
+Tabla de relación letra-número
+
+
+
+
 Wiki: Documentación y consigna, para más info
 
 
