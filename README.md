@@ -117,14 +117,20 @@ De este modo, los caracteres se representan por medio de un átomo o de un núme
 
 *Es necesario realizar un sistema que…*
 1-	Definir el diccionario con la mayor cantidad de palabras conocidas (será de solo lectura)
-2-	El usuario puede agregar nuevas palabras al diccionario y modificar las existentes
-3-	El usuario solo puede listar las palabras que se incorporaron al diccionario
-4-	Las teclas presionadas puede mostrar una palabra del diccionario y ser seleccionada o bien predecir una palabra por prefijos de la misma.
-5-	La teclas presionadas pueden mostrar una palabra nueva a incorporar
-6-	Las teclas presionadas generan una lista de caracteres que pueden representar palabras del diccionario o prefijo de las mismas (ej. A través, por qué, etc.)
-7-	Todo mensaje puede ser modificado, antes de ser enviado 
-La solución debe ser vista como un conjunto. O sea, soluciones con las mismas palabras pero en distinto orden deben ser consideradas como iguales (no deben devolverse repetidos).
 
+2-	El usuario puede agregar nuevas palabras al diccionario y modificar las existentes
+
+3-	El usuario solo puede listar las palabras que se incorporaron al diccionario
+
+4-	Las teclas presionadas puede mostrar una palabra del diccionario y ser seleccionada o bien predecir una palabra por prefijos de la misma.
+
+5-	La teclas presionadas pueden mostrar una palabra nueva a incorporar
+
+6-	Las teclas presionadas generan una lista de caracteres que pueden representar palabras del diccionario o prefijo de las mismas (ej. A través, por qué, etc.)
+
+7-	Todo mensaje puede ser modificado, antes de ser enviado 
+
+La solución debe ser vista como un conjunto. O sea, soluciones con las mismas palabras pero en distinto orden deben ser consideradas como iguales (no deben devolverse repetidos).
 
 
 ***
