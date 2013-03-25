@@ -108,7 +108,7 @@ El mapeo de las teclas es el siguiente:
 
 0	0
 
-#	espacio
+#.	espacio
 
 * -
 
