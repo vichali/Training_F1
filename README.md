@@ -78,6 +78,40 @@ ETQ290 DV 31
 
 GQX429 DV 64
 
+***
+
+**TECLADO   [ASISTENTE/DICCIONARIO]**
+
+Una máquina inyectora de plástico, por tareas de mantenimiento y otros, puede establecer comunicación con su filial mediante mensajes de texto. La mecánica básica es, en principio, la misma que utilizaban los dispositivos móviles en sus comienzos.
+De este modo, un operador puede a manera de ejemplo, enviar un mensaje a la casa matriz y solicitar ayuda sobre una tarea determinada (Ej. “Hola Juan, tenemos un problema con el cilindro A45 que aparentemente se ha contaminado con restos de ABS y no pudimos terminar de limpiarlo”) 
+La máquina, cuenta con un teclado que entre otras tareas complementarias permite la gestión de estos mensajes. 
+El objetivo es representar el comportamiento predictivo de los mensajes de texto que enviaría la máquina.  Esta, dispone de un diccionario de palabras, establecido de fábrica y de un algoritmo que va restringiendo las posibles palabras que pueden ser resultado de la presión de una serie de teclas.
+El mapeo de las teclas es el siguiente:
+
+1 1
+2	2,a,b,c
+3	3,d,e,f
+4	4,g,h,i
+5	5,j,k,l
+6	6,m,n,o
+7	7,p,q,r,s
+8	8,t,u,v
+9	9,w,x,y,z
+0	0
+#	espacio
+* -
+
+De este modo, los caracteres se representan por medio de un átomo o de un número entero.
+
+*Es necesario realizar un sistema que…*
+1-	Definir el diccionario con la mayor cantidad de palabras conocidas (será de solo lectura)
+2-	El usuario puede agregar nuevas palabras al diccionario y modificar las existentes
+3-	El usuario solo puede listar las palabras que se incorporaron al diccionario
+4-	Las teclas presionadas puede mostrar una palabra del diccionario y ser seleccionada o bien predecir una palabra por prefijos de la misma.
+5-	La teclas presionadas pueden mostrar una palabra nueva a incorporar
+6-	Las teclas presionadas generan una lista de caracteres que pueden representar palabras del diccionario o prefijo de las mismas (ej. A través, por qué, etc.)
+7-	Todo mensaje puede ser modificado, antes de ser enviado 
+La solución debe ser vista como un conjunto. O sea, soluciones con las mismas palabras pero en distinto orden deben ser consideradas como iguales (no deben devolverse repetidos).
 
 
 
