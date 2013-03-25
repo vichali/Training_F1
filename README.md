@@ -88,18 +88,29 @@ La máquina, cuenta con un teclado que entre otras tareas complementarias permit
 El objetivo es representar el comportamiento predictivo de los mensajes de texto que enviaría la máquina.  Esta, dispone de un diccionario de palabras, establecido de fábrica y de un algoritmo que va restringiendo las posibles palabras que pueden ser resultado de la presión de una serie de teclas.
 El mapeo de las teclas es el siguiente:
 
-<1 1>
-<2	2,a,b,c>
->3	3,d,e,f
->4	4,g,h,i
->5	5,j,k,l
->6	6,m,n,o
->7	7,p,q,r,s
->8	8,t,u,v
->9	9,w,x,y,z
->0	0
->_#	espacio
->_* -
+1 1
+
+2	2,a,b,c
+
+3	3,d,e,f
+
+4	4,g,h,i
+
+5	5,j,k,l
+
+6	6,m,n,o
+
+7	7,p,q,r,s
+
+8	8,t,u,v
+
+9	9,w,x,y,z
+
+0	0
+
+<#>	espacio
+
+* -
 
 
 De este modo, los caracteres se representan por medio de un átomo o de un número entero.
